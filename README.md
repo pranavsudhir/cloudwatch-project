@@ -116,13 +116,6 @@ resource "aws_instance" "web" {
 }
 ```
 
-**`terraform.tfvars`** ← never commit this file
-```hcl
-ami_id   = "ami-0f58b397bc5c1f2e8"
-key_name = "your-key-name"
-ssh_cidr = "YOUR_IP/32"
-```
-
 **`.gitignore`**
 ---
 
