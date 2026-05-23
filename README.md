@@ -203,6 +203,4 @@ stress --cpu 2 --timeout 300
 
 ---
 
-## 📄 License
 
-MIT
