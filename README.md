@@ -56,22 +56,6 @@ cd aws-project
 ### Step 3 — Terraform files
 
 **`variables.tf`**
-```hcl
-variable "ami_id" {
-  description = "AMI ID for the EC2 instance"
-  type        = string
-}
-
-variable "key_name" {
-  description = "Name of the SSH key pair"
-  type        = string
-}
-
-variable "ssh_cidr" {
-  description = "CIDR block allowed to SSH into the instance"
-  type        = string
-}
-```
 
 **`main.tf`**
 ```hcl
